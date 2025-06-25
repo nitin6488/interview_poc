@@ -10,7 +10,7 @@ def run_fastapi():
 def run_streamlit():
     """Run Streamlit app"""
     time.sleep(5)  # Wait for FastAPI to start
-    subprocess.run([sys.executable, "-m", "streamlit", "run", "streamlit_app.py", "--server.port", "8501", "--server.host", "0.0.0.0"])
+    subprocess.run([sys.executable, "-m", "streamlit", "run", "streamlit_app.py", "--server.port", "8501", "--server.address", "0.0.0.0"])
 
 if __name__ == "__main__":
     # Start FastAPI in a separate thread
