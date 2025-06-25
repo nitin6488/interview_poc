@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual Environments
+env/
+venv/
+
+# Secret environment variables
+.env
+
+# Datasets
+data/
+*.csv
+*.json
+*.jpg
+*.png
+*.mp4
+
+# Trained models
+*.h5
+checkpoints/
+runs/
+
+# Logs and temp
+*.log
+*.tmp
+
+# IDEs and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

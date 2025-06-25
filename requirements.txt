@@ -1,0 +1,14 @@
+streamlit
+fastapi
+uvicorn
+pymongo
+requests
+beautifulsoup4
+google-generativeai
+langchain
+langchain-google-genai
+selenium
+python-dotenv
+pydantic
+motor
+aiohttp
